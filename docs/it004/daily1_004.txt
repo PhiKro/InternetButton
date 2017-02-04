@@ -1,0 +1,18 @@
+Was wurde gemacht?
+David und Philipp 
+Behaviour Test erfolgreich korrigiert
+Fuer die Helligkeitssteigerung der LEDs (2.2) arbeiteten beide Teams gemeinsam
+
+Wo gibt es Probleme?
+Helligkeitssteigerung fuer 2.2 - im Team geloest
+
+
+Was wird zukünftig gemacht? 
+David und Philipp
+Test fuer 2.1
+Josef und Dominik 
+Test fuer 2.2
+
+
+
+

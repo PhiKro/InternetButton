@@ -1,0 +1,15 @@
+Was wurde gemacht?
+David und Philipp  
+im Test fuer 2.1 macht Probleme - Tippfehler korrigiert
+Josef und Dominik
+Test fuer 2.2 geschrieben
+
+Wo gibt es Probleme?
+Probleme bei Test fuer 2.1 
+
+
+Was wird zukünftig gemacht? 
+David und Philipp
+Test fuer 2.1 fertigstellen
+Josef und Dominik 
+Methode fuer 2.2 fertig schreiben 

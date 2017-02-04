@@ -1,0 +1,20 @@
+﻿Retro Iteration 4:
+
+
+Epic 2 - 
+Story 1 
+Methode wurde fertig implementiert.
+Test funktionieren.
+Behaviour-Test für 2.1 funktioniert
+
+Epic 2 - 
+Story 2  
+Methode wurde fertig implementiert.
+Tests funktionieren.
+
+
+was funktioniert?
+Kommunikation unter den Teams wurde verbessert. 
+
+was muss verbessert werden?
+Schnelligkeit der Testerstellung versuchen zu erhoehen.

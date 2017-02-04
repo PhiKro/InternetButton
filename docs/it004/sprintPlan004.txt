@@ -1,0 +1,34 @@
+Sprint Plan Iteration 4:
+13:30 - 14:30 Uhr
+
+
+Epic 2 - Interaktive Rueckmeldungen
+Story 1 Die Klasse CountAndShowLed zählt die Klicks von einem Button und nimmt die Anzahl der Leds die leuchten soll.
+	Erweitern des Verhaltens, das es auch mit mehr als 12 Klicks umgehen kann und dann wieder von vorne beginnt. 
+	Erweitern Sie zuerst den Test und vervollständigen der Implementierung. 
+	Schreiben sie auch eine Applikation die das Verhalten zeigt.
+
+	geplanter Aufwand: 13 Storypoints
+
+	Behaviour-Test für 2.1 schlaegt momentan fehl - korrigieren
+	zuesaetzlicher Aufwand fuer Behaviour: 3 Storypoints
+
+	Test fuer diese Methode korrigieren
+
+umsetzen werden dies: David und Philipp
+
+Story 2 Erstellen einer neue Klasse und ändern des Verhaltens, dass bei jedem Klick die Farbe immer einen stärkeren rot Anteil bekommt
+	(10er Schritte beim Farbwert). Beim Erreichen, des vollen Rot Anteils (255) soll der Zähler zurück gesetzt werden. Zeigen mit Tests.
+
+	geplanter Aufwand: 13 Storypoints
+
+	zuerst Test implementieren
+	dann noetigen Code fuer eine positive Testausgabe erstellen		
+
+umsetzen werden dies: Josef und Dominik
+
+
+
+
+
+
