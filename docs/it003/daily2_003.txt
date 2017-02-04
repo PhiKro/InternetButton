@@ -1,0 +1,15 @@
+Was wurde gemacht?
+David und Josef
+Problem mit Modulo wurde geloest
+Dominik und Philipp
+Test fuer Epic 1 vervollstaendigt
+
+Wo gibt es Probleme?
+Probleme wurden erfolgreich geloest - die anfaenglichen Schwierigkeiten mit dem 
+Lesen von fremden Code haben sich geloest
+
+Was wird zukünftig gemacht?
+David und Josef
+schreiben Code fuer 2.1 fertig
+Dominik und Philipp
+schreiben Code fuer Test 2.1 fertig

@@ -1,0 +1,17 @@
+﻿Retro Iteration 3:
+
+Epic 1 - 
+Story 3 
+erledigt - Demo und Tests funktionieren
+
+Epic 2 - 
+Story 1  
+Methode wurde fertig implementiert, aber Test funktioniert nicht und wurde deshalb vom Build ausgenommen.
+
+
+was funktioniert?
+
+
+was muss verbessert werden?
+Kommunikation im Team muss verbessert werden - ergab Schwierigkeiten bei Erstellen von Tests
+Standardtest behaviour muss mit angepasst werden, fehlerhaften Code auskommentiert um im naechsten Sprint beheben zu koennen.

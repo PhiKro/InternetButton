@@ -1,0 +1,19 @@
+Was wurde gemacht?
+David und Josef arbeiteten an 2.1
+Zählen funktioniert
+Philipp und Dominik 
+Test Sound und LED überarbeitet - funktionieren jetzt richtig
+
+Wo gibt es Probleme?
+David und Josef  
+Methode für Zurücksetzen bei Erreichen von 12 funktioniert mit Modulo noch nicht
+Philipp und Dominik
+Code einlesen - Welche Parameter sind für Counter Test wichtig
+
+Was wird zukünftig gemacht? 
+David und Josef
+Fehlersuche warum Modulo nicht funktioniert oder Alternative suchen
+Philipp und Dominik - Counter Test für 1.3 schreiben
+
+
+
