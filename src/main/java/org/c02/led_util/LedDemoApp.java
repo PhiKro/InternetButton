@@ -18,6 +18,6 @@ public class LedDemoApp  {
 	
 	public static void main(String[] args) throws IOException, ParticleException { 
 		LedDemo.setLed(9,Color.WHITE);
-	
+	    //LedDemo.allLedsOff();
 	}
 }
