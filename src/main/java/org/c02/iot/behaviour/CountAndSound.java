@@ -52,11 +52,10 @@ public class CountAndSound extends AbstractBehaviour {
 		int buttonCounter = button.getButtonCounter(ButtonDirection.North);
 		Color newC;
 	
-		Boolean l_bol = true;
 		button.allLedsOff();
 		button.resetButtonCounters();
 		
-		while(l_bol) {
+		
 			buttonCounter = counter;
 			
 			if(buttonCounter%10 == 0) {
@@ -68,7 +67,6 @@ public class CountAndSound extends AbstractBehaviour {
 				}
 			}
 			
-		}	
 	}
 }
 	
