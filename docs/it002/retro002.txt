@@ -1,0 +1,17 @@
+﻿Retro Iteration 1:
+
+Epic 1 - 
+Story 1 
+erledigt - Demo und Tests funktionieren
+
+Story 2 
+erledigt - Demo und Tests funktionieren
+
+Story 3 
+begonnen - Methode Abfragen funktioniert
+
+was funktioniert?
+Tests laufen, Teams arbeiten gut zusammen
+
+was muss verbessert werden?
+Git-Handling

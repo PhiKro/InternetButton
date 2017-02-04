@@ -1,0 +1,51 @@
+﻿Relase-Plan
+
+Device-ID: 3a0040001347343432313031
+Iteration 1-2 (bis 11:45)
+
+Planning Poker: 1,2,3,5,8,13,20
+
+Epic 1 - Vervollständigen der Klasse InternetButtonApiImpl
+	Story 1 Implementieren der Funktion zum Abspielen eines Tones in der InternetButtonApiImpl
+			Schreiben Sie auch eine kleine Applikation die zeigt, dass die Melodie auch wirklich ertönt (PlayDemoApp)
+angepasster Aufwand: 8 Storypoints
+	Story 2 Implementieren der Methoden zum Setzen der Leds und zum Abschalten der Leds. Schreiben Sie auch dafür einen Test der ohne den Button aus kommt.
+			Schreiben Sie auch eine kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp)
+geplanter Aufwand. 20 Storypoints
+
+Iteration 3-4 (bis 14:30)
+Epic 1	Story 3 Implementieren Sie die Methoden zum Abfragen und Zuruecksetzen der Button Zaehler.
+			Schreiben Sie auch eine kleine Applikation die Zaehler ausliest und 
+			zuruecksetzt (ButtonCounterDemo)
+geplanter Aufwand. 8 Storypoints
+Epic 2 - Interaktive Rueckmeldungen
+	Story 1 Die Klasse CountAndShowLed zählt die Klicks von einem Button und nimmt die Anzahl der Leds die leuchten soll.
+					Erweitern des Verhaltens, das es auch mit mehr als 12 Klicks umgehen kann und dann wieder von vorne beginnt. 
+					Erweitern Sie zuerst den Test und vervollständigen der Implementierung. 
+					Schreiben sie auch eine Applikation die das Verhalten zeigt.
+	geplanter Aufwand: 8 Storypoints
+	Story 2 Erstellen einer neue Klasse und ändern des Verhaltens, dass bei jedem Klick die Farbe immer einen stärkeren rot Anteil bekommt
+					(10er Schritte beim Farbwert). Beim Erreichen, des vollen Rot Anteils (255) soll der Zähler zurück gesetzt werden. Zeigen mit Tests.
+
+	geplanter Aufwand: 13 Storypoints
+Iteration 5 (bis 15 Uhr)	
+	Story 3 Erstellen einer neue Klasse und ändern des Verhaltens, dass die LEDS gelb blinken. Zeigen mit Tests.
+	geplanter Aufwand: 5 Storypoints
+
+nicht im Iterationsplan:
+Epic 3 - Einbeziehen des Beschleunigungssensors
+	Story 1 Erweitern des Interfaces so, dass die es einzelne Methoden zur abfrage des x,y, und z wertes des Beschleuniguns Sensors zu Verfügung stehen. 
+					Schreiben von Testfällen und zeigen Sie die Implementierung in einem kleinen Demo.
+	geplanter Aufwand: 20 Storypoints
+	Story 2 Erstellen die ein Verhalten ähnlich dem in der Klasse CountAndShowLed nur, das der Blau Wert von dem xWert des Beschleunigungs Sensors abhängig ist.
+					Testfall und Demo.
+	geplanter Aufwand: 13 Storypoints
+	Story 3 Erstellen die ein Verhalten ähnlich dem in der Klasse CountAndShowLed nur, das der x-Wert den rot-Wert, der y-Wert den grün-Wert und der z-Wert den 
+					blau-Wert  definiert. Auch hier wieder Testfall und ein kleines Demo.
+	geplanter Aufwand: 13 Storypoints
+Epic 4 - Erweitern der Firmware
+	Story 1 Ermöglichen, dass mehrerer Leds auf einmal gesetzt werden können.  Dazu muss eine neue Methode in der Firmware umgesetzt werden und es sollen die 
+					entsprechenden HighLevel API Methode angeboten werden. Wieder Testfälle und Demo.
+	geplanter Aufwand: 20 Storypoints
+	Story 2 Ermöglichen Sie es, dass man eine andere Melodie Spielen kann. Dazu muss in der Firmware ein Parameter für die Melodie angegeben werden. Wieder Testfälle und Demo
+	geplanter Aufwand: 20 Storypoints

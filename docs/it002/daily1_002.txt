@@ -1,0 +1,13 @@
+Was wurde gemacht?
+David und Philipp Audiotest wird implementiert
+Dominik u. Josef 
+Fehler in Iteration 1 korrigiert - Farben werden nun korrekt angesprochen und abgerufen
+
+Wo gibt es Probleme?
+Dominik u. Josef - Mock Objekt anwenden - Infos suchen
+generelle Probleme mit pushen und committen
+
+Was wird zukünftig gemacht? 
+David und Philipp machen Audiotest fertig
+Dominik u. Josef
+LED-Test wird implementiert

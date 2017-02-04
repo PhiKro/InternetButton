@@ -1,0 +1,16 @@
+Was wurde gemacht?
+David und Philipp
+Soundtest erledigt
+Dominik und Josef
+Merge-Problem behoben und Kompilierungsfehler entfernt
+
+Wo gibt es Probleme?
+Merge-Probleme - dadurch kein effektives Arbeiten möglich
+
+Was wird zukünftig gemacht?
+David und Philipp
+Story 3 beginnen - Implementieren Sie die Methoden zum Abfragen und Zurücksetzen der 
+Button Zähler.
+
+Dominik u. Josef
+LED-Test wird implementiert

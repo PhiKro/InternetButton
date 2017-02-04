@@ -1,0 +1,15 @@
+Sprint Plan Iteration 2:
+
+Epic 1 - Vervollstaendigen der Klasse InternetButtonApiImpl
+Story 1 
+PlayDemo erstellen, da es in der Iteration 1 Probleme damit gab (Aufwand neu geschaetzt)
+
+	geschaetzter Aufwand: 8
+	umsetzen werden dies David u. Philipp
+
+Story 2 
+LedDemoApp erstellen - in Iteration 1 nicht geschafft - Probleme mit Code-Einlesen (Aufand bleibt)
+
+	geschaetzter Aufwand: 20
+	umsetzen werden dies Dominik u. Josef
+
