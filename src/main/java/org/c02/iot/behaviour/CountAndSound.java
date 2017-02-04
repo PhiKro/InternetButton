@@ -49,12 +49,7 @@ public class CountAndSound extends AbstractBehaviour {
 	
 
 	public void run(int counter) {
-		int buttonCounter = button.getButtonCounter(ButtonDirection.North);
-		Color newC;
-	
-		button.allLedsOff();
-		button.resetButtonCounters();
-		
+		int buttonCounter = 0;
 		
 			buttonCounter = counter;
 			
