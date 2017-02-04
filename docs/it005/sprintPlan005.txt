@@ -1,0 +1,24 @@
+Sprint Plan Iteration 5:
+14:30 - 15:00 Uhr
+
+
+Epic 2 - Interaktive Rueckmeldungen
+Story 3 Erstellen einer neue Klasse und ändern des Verhaltens, dass bei allen 10 Klicks eine Melodie abspielt. 
+	Zeigen mit Tests.
+	angepasster Aufwand: 5 Storypoints
+	
+	Tests schreiben	
+	Praesentation erstellen
+
+umsetzen werden dies: David und Philipp
+
+
+	Demo fuer Praesentation erstellen
+
+umsetzen werden dies: Josef und Dominik
+
+
+
+
+
+

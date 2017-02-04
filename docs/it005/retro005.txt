@@ -1,0 +1,9 @@
+﻿Retro Iteration 5:
+
+
+Epic 2 - 
+Story 3 
+Methode wurde fertig implementiert.
+Test funktioniert.
+Dauerschleife im Test nicht behoben.
+
