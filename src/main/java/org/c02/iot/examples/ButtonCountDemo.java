@@ -16,12 +16,11 @@ public class ButtonCountDemo {
 
 	public static void main(String[] args) {
 
-		ButtonDirection button = null;
+		//ButtonDirection button = null;
 		//CountDemo.getButtonCounter(button.North);
 		
 		CountAndShowLed newCount = new CountAndShowLed(CountDemo);
 		newCount.run();
-
 
 	}
 
