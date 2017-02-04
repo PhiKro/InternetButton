@@ -1,0 +1,24 @@
+Sprint Plan Iteration 1:
+
+Epic 1 - Vervollstaendigen der Klasse InternetButtonApiImpl
+Story 1 
+Implementieren der Funktion zum Abspielen eines Tones in der InternetButtonApiImpl
+Schreiben Sie auch eine kleine Applikation die zeigt, dass die Melodie auch wirklich ertoent (PlayDemoApp)
+
+	geschaetzter Aufwand: 3
+	umsetzen werden dies David u. Dominik
+
+Story 2 
+Implementieren der Methoden zum Setzen der Leds und zum Abschalten der Leds. Schreiben Sie auch dafuer einen Test der ohne den Button aus kommt.
+Schreiben Sie auch eine kleine Applikation die zeigt, wie die LEDS gesetzt und geloescht werden (LedDemoApp)
+
+	geschaetzter Aufwand: 20
+	umsetzen werden dies Philipp u. Josef
+
+Story 3 
+Implementieren Sie die Methoden zum Abfragen und Zuruecksetzen der Button Zaehler.
+Schreiben Sie auch eine kleine Applikation die Zaehler ausliest und 
+zuruecksetzt (ButtonCounterDemo)
+
+	geschaetzter Aufwand: 8
+	umsetzen werden dies David u. Dominik

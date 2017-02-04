@@ -1,0 +1,19 @@
+Was wurde gemacht?
+Philipp u. Josef 
+erste Verbindungstest positiv
+Grundkonstrukt fuer Klasse
+Dominik u. David
+Test fuer Sound 
+
+Wo gibt es Probleme?
+Philipp u. Josef
+aktuelle Verbindungsprobleme behoben
+kaempfen noch mit Tests
+Dominik u. David
+Orientierungsprobleme
+
+Was passiert als naechstes?
+Philipp u. Josef
+Tests
+Dominik u. David
+Test fertigstellen, Demo schreiben

@@ -1,0 +1,13 @@
+Retro Iteration 1:
+
+Epic 1 - 
+Story 1 
+Funktion implementiert - Tests sind schwerer als gedacht - wird in Iteration 2 übernommen
+
+Story 2 
+Basis Connection Demo 
+aktuelles Problem: Farbuebertragung - Loesung: auf RGB-Code reduzieren
+Tests offen
+
+Story 3 
+nicht begonnen
