@@ -62,5 +62,10 @@ public class ParticleApiWrapperImpl implements ParticleApiWrapper {
 			throw new ParticleException(e);
 		}
 	}
+	
+	public void playsound()
+	{
+		
+	}
 
 }

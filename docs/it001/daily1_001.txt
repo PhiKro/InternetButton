@@ -1,0 +1,9 @@
+Was wurde gemacht?
+David u. Dominik versuchten das Device zu connecten
+Test ist im Lauf 
+Philipp u. Josef 
+Versuchen zu ergruenden wie die Methode implementiert wird.
+Wo gibt es Probleme?
+Interface zum Geraet - Philipp u. Josef
+Einarbeitungsphase
+
