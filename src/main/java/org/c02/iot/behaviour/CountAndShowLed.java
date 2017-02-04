@@ -15,9 +15,7 @@ public class CountAndShowLed extends AbstractBehaviour {
 	public void run() {
 		int buttonCounter = button.getButtonCounter(ButtonDirection.North);
 		
-		//buttonCounter = buttonCounter%12;
-		System.out.println("Bis hierher");
-		System.out.println(buttonCounter);
+		buttonCounter = buttonCounter%12;
 		button.allLedsOff();
 		button.setLed(buttonCounter, Color.GREEN);
 		

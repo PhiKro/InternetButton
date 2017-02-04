@@ -17,16 +17,11 @@ public class ButtonCountDemo {
 	public static void main(String[] args) {
 
 		ButtonDirection button = null;
-<<<<<<< Upstream, based on branch 'master' of https://github.com/PhiKro/InternetButton
+		//CountDemo.getButtonCounter(button.North);
 		
-		CountDemo.resetButtonCounters();
-		CountDemo.getButtonCounter(button.North);
-		
-=======
-	
 		CountAndShowLed newCount = new CountAndShowLed(CountDemo);
 		newCount.run();
->>>>>>> 18b947a Implemented 2.1
+
 
 	}
 
