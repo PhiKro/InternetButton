@@ -17,9 +17,7 @@ public class LedDemoApp  {
 	static InternetButtonImpl LedDemo = new InternetButtonImpl (api);
 	
 	public static void main(String[] args) throws IOException, ParticleException { 
-		LedDemo.setLed(11,"255140255");
-	//	System.out.println(Color.GREEN);
-		
-		LedDemo.allLedsOff();
+		LedDemo.setLed(9,Color.WHITE);
+	
 	}
 }

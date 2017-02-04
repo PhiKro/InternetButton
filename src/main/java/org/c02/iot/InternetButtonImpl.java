@@ -18,10 +18,10 @@ public class InternetButtonImpl implements InternetButtonApi {
 		return 0;
 	}
 
-	public void setLed(int position, String color/*Color color*/)  {
+	public void setLed(int position, Color color)  {
 		// TODO Auto-generated method stub
 		try {
-			wrapper.callMethod("led",position+color.toString());
+			wrapper.callMethod("led",String.format("%02d", position)+color.getRed()+color.getGreen()+color.getBlue());
 		} catch (ParticleException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -54,10 +54,5 @@ public class InternetButtonImpl implements InternetButtonApi {
 		
 	}
 
-	@Override
-	public void setLed(int postition, Color color) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
