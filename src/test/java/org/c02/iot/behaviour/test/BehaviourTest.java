@@ -34,7 +34,7 @@ public class BehaviourTest {
 
 			@Override
 		public void allLedsOff() {
-	//			Assert.fail();
+				Assert.assertTrue(true); 
 			}
 
 			@Override

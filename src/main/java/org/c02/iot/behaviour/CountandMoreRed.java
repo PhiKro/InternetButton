@@ -31,11 +31,28 @@ public class CountandMoreRed extends AbstractBehaviour {
 			newC = new Color(buttonCounter*10+15, 150, 30);
 			button.setLed(5, newC);
 		}
-		
-		
-		
 				
 		
 	}
+	
+	public void run(int test) 
+	{
+		int buttonCounter = button.getButtonCounter(ButtonDirection.North);
+		Color newC;
+		
+		button.allLedsOff();
+		button.resetButtonCounters();
 
-}
+			buttonCounter = button.getButtonCounter(ButtonDirection.North);
+			
+			if(buttonCounter > 24) {
+				buttonCounter = 24;
+			}
+			
+			newC = new Color(buttonCounter*10+15, 150, 30);
+			button.setLed(5, newC);
+		}
+	}
+	
+	
+
