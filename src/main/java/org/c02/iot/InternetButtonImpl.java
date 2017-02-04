@@ -15,6 +15,9 @@ public class InternetButtonImpl implements InternetButtonApi {
 
 	public int getButtonCounter(ButtonDirection button) {
 		// TODO Auto-generated method stub
+		
+		
+		
 		return 0;
 	}
 
