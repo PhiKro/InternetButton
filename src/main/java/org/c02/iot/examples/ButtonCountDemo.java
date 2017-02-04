@@ -1,6 +1,9 @@
 package org.c02.iot.examples;
 
 import org.c02.iot.InternetButtonApi.ButtonDirection;
+
+import java.awt.Color;
+
 import org.c02.iot.InternetButtonImpl;
 import org.c02.iot.behaviour.CountAndShowLed;
 import org.c02.iot.behaviour.CountAndSound;
@@ -17,9 +20,16 @@ public class ButtonCountDemo {
 	static InternetButtonImpl CountDemo = new InternetButtonImpl (api);
 
 	public static void main(String[] args) {
+		
+		//CountDemo.allLedsOff();
+		//CountDemo.setLed(1, Color.WHITE);
+		
+		//CountDemo.allLedsOff();
 
 		//ButtonDirection button = null;
-		//CountDemo.getButtonCounter(button.North);
+		//System.out.println(CountDemo.getButtonCounter(button.North));
+		
+		//CountDemo.resetButtonCounters();
 		
 		//CountAndShowLed newCount = new CountAndShowLed(CountDemo);
 		//newCount.run();
@@ -28,6 +38,7 @@ public class ButtonCountDemo {
 		//CountandMoreRed newRed = new CountandMoreRed(CountDemo);
 		//newRed.run();
 		
+		CountDemo.resetButtonCounters();
 		CountAndSound newSound = new CountAndSound(CountDemo);
 		newSound.run();
 	}
