@@ -46,6 +46,30 @@ public class CountAndSound extends AbstractBehaviour {
 				
 		
 	}
+	
+
+	public void run(int counter) {
+		int buttonCounter = button.getButtonCounter(ButtonDirection.North);
+		Color newC;
+	
+		Boolean l_bol = true;
+		button.allLedsOff();
+		button.resetButtonCounters();
+		
+		while(l_bol) {
+			buttonCounter = counter;
+			
+			if(buttonCounter%10 == 0) {
+				try {
+					api.callMethod("play", "1");
+				} catch (ParticleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			
+		}	
+	}
 }
 	
 	
