@@ -2,6 +2,7 @@ package org.c02.iot.examples;
 
 import org.c02.iot.InternetButtonApi.ButtonDirection;
 import org.c02.iot.InternetButtonImpl;
+import org.c02.iot.behaviour.CountAndShowLed;
 import org.c02.iot.cloud.api.ParticleApiWrapper;
 import org.c02.iot.cloud.api.ParticleApiWrapperImpl;
 import org.c02.iot.cloud.examples.DemoConstants;
@@ -16,10 +17,16 @@ public class ButtonCountDemo {
 	public static void main(String[] args) {
 
 		ButtonDirection button = null;
+<<<<<<< Upstream, based on branch 'master' of https://github.com/PhiKro/InternetButton
 		
 		CountDemo.resetButtonCounters();
 		CountDemo.getButtonCounter(button.North);
 		
+=======
+	
+		CountAndShowLed newCount = new CountAndShowLed(CountDemo);
+		newCount.run();
+>>>>>>> 18b947a Implemented 2.1
 
 	}
 

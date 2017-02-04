@@ -17,7 +17,8 @@ public class InternetButtonImpl implements InternetButtonApi {
 	public int getButtonCounter(ButtonDirection button) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Test Test");
+		resetButtonCounters();
+		
 		try {
 			String l_button = null;
 			
@@ -25,13 +26,15 @@ public class InternetButtonImpl implements InternetButtonApi {
 				l_button = "countButton1";
 		    }else if("South" == button.South.toString()) {
 		    	l_button = "countButton2";
-		    }else if("East" == button.South.toString()) {
+		    }else if("East" == button.East.toString()) {
 		    	l_button = "countButton3";
-		    } else if("West" == button.South.toString()) {
+		    } else if("West" == button.West.toString()) {
 		    	l_button = "countButton4";
 		    }
-			
+			System.out.println("So oft wurde geklickt:");
 			System.out.println(wrapper.readVariable(l_button));
+			
+			return wrapper.readVariable(l_button);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
