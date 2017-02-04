@@ -26,7 +26,7 @@ public class LedAndPlayDemo {
 		api.callMethod("led","07000000255");
 		api.callMethod("led","11000255255");
 		
-		api.callMethod("play",null); // Spielt einen melodie ab
+		//api.callMethod("play",null); // Spielt einen melodie ab
 		
 		api.callMethod("ledsOff",null); 
 		
