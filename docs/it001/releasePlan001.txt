@@ -7,11 +7,12 @@ Planning Poker: 1,2,3,5,8,13,20
 
 Epic 1 - Vervollständigen der Klasse InternetButtonApiImpl
 	Story 1 Implementieren der Funktion zum Abspielen eines Tones in der InternetButtonApiImpl
-					Schreiben Sie auch eine kleine Applikation die zeigt, dass die Melodie auch wirklich ertönt (PlayDemoApp)
+			Schreiben Sie auch eine kleine Applikation die zeigt, dass die Melodie auch wirklich ertönt (PlayDemoApp)
 	Story 2 Implementieren der Methoden zum Setzen der Leds und zum Abschalten der Leds. Schreiben Sie auch dafür einen Test der ohne den Button aus kommt.
-					Schreiben Sie auch eine kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp)
-	Story 3 Implementieren der Methode zum Setzen der Leds und zum Abschalten der Leds. Schreiben Sie auch dafür einen Test der ohne den Button aus kommt.
-					Schreiben Sie auch eine kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden(LedDemoApp)
+			Schreiben Sie auch eine kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp)
+	Story 3 Implementieren Sie die Methoden zum Abfragen und Zuruecksetzen der Button Zaehler.
+			Schreiben Sie auch eine kleine Applikation die Zaehler ausliest und 
+			zuruecksetzt (ButtonCounterDemo)
 
 Iteration 3-4 (bis 14:30)
 Epic 2 - Interaktive Rueckmeldungen
