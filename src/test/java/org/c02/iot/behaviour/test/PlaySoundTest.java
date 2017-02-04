@@ -13,7 +13,7 @@ public class PlaySoundTest {
 	
 	public void testPlaySound()
 	{
-		InternetButtonApi buttonInstance = new InternetButtonApi()
+		//InternetButtonApi buttonInstance = new InternetButtonApi()
 
 	}
 
