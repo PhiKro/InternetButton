@@ -1,7 +1,5 @@
 package org.c02.iot.behaviour.test;
 
-import static org.junit.Assert.*;
-
 import org.c02.iot.InternetButtonImpl;
 import org.c02.iot.cloud.api.ParticleApiWrapper;
 import org.c02.iot.cloud.api.ParticleException;

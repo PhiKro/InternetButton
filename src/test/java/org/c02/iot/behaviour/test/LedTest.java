@@ -1,6 +1,6 @@
 package org.c02.iot.behaviour.test;
 
-import static org.junit.Assert.*;
+
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 

@@ -19,6 +19,7 @@ public class ButtonCountDemo {
 		
 		CountDemo.resetButtonCounters();
 		CountDemo.getButtonCounter(button.North);
+		
 
 	}
 
