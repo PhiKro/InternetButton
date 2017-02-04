@@ -20,7 +20,7 @@ public class LedAndPlayDemo {
 		// ggg = grün
 		// bbb = blau
 		//                    nnrrrgggbbb
-		api.callMethod("led","01255255255");
+		/*api.callMethod("led","01255255255");
 		api.callMethod("led","05255000000");
 		api.callMethod("led","06000255000");
 		api.callMethod("led","07000000255");
@@ -28,7 +28,8 @@ public class LedAndPlayDemo {
 		
 		api.callMethod("play",null); // Spielt einen melodie ab
 		
-		api.callMethod("ledsOff",null); 
+		api.callMethod("ledsOff",null); */
+		api.callMethod("play", "20");
 		
 		
 	}

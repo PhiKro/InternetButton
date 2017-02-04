@@ -3,6 +3,7 @@ package org.c02.iot.examples;
 import org.c02.iot.InternetButtonApi.ButtonDirection;
 import org.c02.iot.InternetButtonImpl;
 import org.c02.iot.behaviour.CountAndShowLed;
+import org.c02.iot.behaviour.CountAndSound;
 import org.c02.iot.behaviour.CountandMoreRed;
 import org.c02.iot.cloud.api.ParticleApiWrapper;
 import org.c02.iot.cloud.api.ParticleApiWrapperImpl;
@@ -24,8 +25,11 @@ public class ButtonCountDemo {
 		//newCount.run();
         
 		
-		CountandMoreRed newRed = new CountandMoreRed(CountDemo);
-		newRed.run();
+		//CountandMoreRed newRed = new CountandMoreRed(CountDemo);
+		//newRed.run();
+		
+		CountAndSound newSound = new CountAndSound(CountDemo);
+		newSound.run();
 	}
 
 }
