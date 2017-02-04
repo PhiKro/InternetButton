@@ -4,22 +4,26 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-import org.c02.iot.cloud.api.ParticleApiWrapper;
 import org.junit.Test;
 
-import com.sun.prism.paint.Color;
-
 import org.c02.iot.InternetButtonImpl;
+import org.c02.iot.cloud.api.ParticleApiWrapper;
+import org.c02.iot.cloud.api.ParticleException;
 
 public class LedTest {
 
 	@Test
 	public void test() {
-		
-		InternetButtonImpl api = mock(InternetButtonImpl.class);
-		
-		api.setLed(12, java.awt.Color.RED);
-		verify(api).setLed(12, java.awt.Color.RED);
+		ParticleApiWrapper api = mock(ParticleApiWrapper.class);
+		InternetButtonImpl test = new InternetButtonImpl(api);
+
+		test.setLed(12, java.awt.Color.WHITE);
+		try {
+			verify(api).callMethod("led", "12255255255");
+		} catch (ParticleException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 

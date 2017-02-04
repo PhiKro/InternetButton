@@ -2,6 +2,7 @@ package org.c02.iot.behaviour.test;
 
 import static org.junit.Assert.*;
 
+import org.c02.iot.InternetButtonImpl;
 import org.c02.iot.cloud.api.ParticleApiWrapper;
 import org.c02.iot.cloud.api.ParticleException;
 import org.junit.Test;
@@ -13,9 +14,10 @@ public class AudioTes {
 	public void test() 
 	{
 		ParticleApiWrapper api = mock(ParticleApiWrapper.class);
+		InternetButtonImpl test = new InternetButtonImpl(api);
 	
 		try {
-			api.callMethod("play", null);
+			test.playSound();
 			verify(api).callMethod("play", null);
 		} catch (ParticleException e) {
 			e.printStackTrace();
