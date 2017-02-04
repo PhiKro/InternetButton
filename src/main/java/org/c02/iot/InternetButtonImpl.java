@@ -31,8 +31,8 @@ public class InternetButtonImpl implements InternetButtonApi {
 		    } else if("West" == button.West.toString()) {
 		    	l_button = "countButton4";
 		    }
-			System.out.println("So oft wurde geklickt:");
-			System.out.println(wrapper.readVariable(l_button));
+			//System.out.println("So oft wurde geklickt:");
+			//System.out.println(wrapper.readVariable(l_button));
 			
 			return wrapper.readVariable(l_button);
 		} catch (IOException e) {
